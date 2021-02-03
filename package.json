@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "npm build && node dist/src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/tarcisiocorte/api-neto-dev-lab#readme",
   "devDependencies": {
-    "git-commit-msg-linter": "^3.0.0"
+    "git-commit-msg-linter": "^3.0.0",
+    "typescript": "^4.1.3"
   }
 }
