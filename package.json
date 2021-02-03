@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tarcisiocorte/api-neto-dev-lab/issues"
   },
-  "homepage": "https://github.com/tarcisiocorte/api-neto-dev-lab#readme"
+  "homepage": "https://github.com/tarcisiocorte/api-neto-dev-lab#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.0.0"
+  }
 }
